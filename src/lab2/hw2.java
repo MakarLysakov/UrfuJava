@@ -8,7 +8,7 @@ public class hw2 {
         Scanner in = new Scanner(System.in);
         System.out.println("Type number of rows: ");
         int num_of_rows = in.nextInt();
-        System.out.println("Type number of rows: ");
+        System.out.println("Type number of columns: ");
         int num_of_col = in.nextInt();
 
         int[][] mas = new int[num_of_rows][num_of_col];

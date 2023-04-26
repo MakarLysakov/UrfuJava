@@ -22,7 +22,7 @@ public class hw1 {
 
         for (int i = 0; i < r; i ++){
             mas.add(random.nextInt(mv + 1));
-            System.out.println(mas.get(i));
+            System.out.print(mas.get(i) + " ");
 
             if (mas.get(i) < minvalue){
                 minvalue = mas.get(i);
@@ -35,7 +35,5 @@ public class hw1 {
         System.out.printf("The minimal value in list is %d", minvalue);
         System.out.println();
         System.out.println("Indexs of minimal value is " + mas_index);
-
-
     }
 }
